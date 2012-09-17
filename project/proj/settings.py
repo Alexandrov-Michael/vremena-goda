@@ -1,9 +1,14 @@
 # -*- coding:utf-8 -*-
 from os import path
+from platform import node
+
+HOST_NAME = node()
+PROD_HOST = 'vh13'
+
 
 PROJECT_ROOT = path.abspath(path.dirname(__file__))
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -12,16 +17,7 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'vremena',                      # Or path to database file if using sqlite3.
-        'USER': 'postgres',                      # Not used with sqlite3.
-        'PASSWORD': '0',                  # Not used with sqlite3.
-        'HOST': '192.168.1.6',                      # Set to empty string for localhost. Not used with sqlite3.
-        'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
-    }
-}
+
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -133,6 +129,8 @@ INSTALLED_APPS = (
     'django_extensions',
     'main_pages',
     'slider',
+
+    'south',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -178,3 +176,9 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'proj.context_processors.main_page_3_imgs',
     'proj.context_processors.main_news',
     )
+
+
+if not HOST_NAME == PROD_HOST:
+    from proj.setting_dev import *
+else:
+    from proj.settings_prod import *
