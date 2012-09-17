@@ -5,7 +5,8 @@ from tinymce import models as tinymce_model
 
 
 TEMPLATES_CHOICE = (
-    ('main.html', 'Шаблон основной'),
+    ('main.html', 'Шаблон основной страницы'),
+    ('child.html', 'Шаблон доп. страниц'),
 )
 
 
