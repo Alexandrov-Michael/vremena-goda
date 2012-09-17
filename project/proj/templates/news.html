@@ -1,0 +1,9 @@
+<h3>Новости</h3>
+<div class='news_block'>
+    {% for item in main_page_news %}
+        <div class='news'>
+            <div class='news_date'>{{ item.date|date:'d.m.Y' }}</div>
+            <a href="/news/{{ item.pk }}/">{{ item.title }}</a>
+        </div>
+    {% endfor %}
+</div>

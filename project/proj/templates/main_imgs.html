@@ -1,0 +1,9 @@
+<div class="row">
+    {% for item in main_page_3_imgs %}
+        <div class="span2">
+            <img src="{{ item.img.url }}" alt="{{ item.title }}" width="140" height="89">
+            <a href="{{ item.page.url }}">{{ item.page.title }}</a>
+            <p>{{ item.title }}</p>
+        </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,8 @@
+#ignore this files adn directory
+env
+dj_static
+.idea
+*.pyc
+public_html/media/images
+public_html/media/main_imgs
+migrations

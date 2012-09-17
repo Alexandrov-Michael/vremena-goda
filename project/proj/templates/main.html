@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Главная
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        {% include 'main_page_menu.html' %}
+        <div class="span6 green">
+            {% include 'main_imgs.html' %}
+            <div class="row">
+                <div class="span6 contant">
+                    <h1>{{ page.title }}</h1>
+                    {{ page.body }}
+                </div>
+            </div>
+        </div>
+        <div class="span3 blue right_bar">
+            {% include 'news.html' %}
+        </div>
+    </div>
+{% endblock %}

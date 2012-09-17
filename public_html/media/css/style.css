@@ -1,0 +1,278 @@
+/*
+
+Main style for vremena goda
+
+*/
+
+
+
+
+/************ Common     *******************/
+/* test style */
+
+        /*.border{*/
+            /*border:1px solid black;*/
+        /*}*/
+        /*.green{*/
+            /*background-color: #65ce57;*/
+        /*}*/
+        /*.blue{*/
+            /*background-color: #aeaaff;*/
+        /*}*/
+        /*.yellow{*/
+            /*background-color: #cfcf00;*/
+        /*}*/
+        /*body{*/
+            /*background-color: #ccc;*/
+        /*}*/
+
+/* end test style */
+
+/* aling text для крайних колонок */
+.align_right{
+    text-align: right;
+}
+/* end aling right */
+
+
+
+#crossslide{
+    width: 1000px;
+    height: 300px;
+    margin: 10px auto 20px;
+
+}
+
+
+/* fonts */
+div#header a, div#footer, div#footer a, ul.left_side_menu a{
+    color: #636363;
+}
+/* end fonts */
+
+/* a decoration */
+ul.left_side_menu a, ul.menu a{
+    text-decoration: none;
+}
+/* end a */
+
+body{
+    padding: 20px 0 0 0;
+}
+
+
+/* ul */
+ul.menu,div#header ul.menu li ul,ul.left_side_menu{
+    margin:0;
+    padding: 0;
+}
+/* end ul */
+
+/* hedi class */
+.hide{
+    display: none;
+}
+/*end hide class*/
+/************ END Common ******************/
+
+
+
+/*************************************************************************************************/
+/*********************************
+Header
+**********************************/
+
+div#header{
+    font-size: 16px;
+}
+
+/* menu */
+
+ul.menu>li{
+    list-style: none;
+    display: block;
+    float: left;
+    background: url('../img/maket/top_menu_line.png') no-repeat 100% 50%;
+    position: relative;
+}
+
+div.menu_wrop{
+    background: url('../img/maket/top_menu_line.png') no-repeat 0 50%;
+}
+div.menu_wrop, div.menu_mail{
+    margin-top: 50px;
+}
+div.menu_wrop, div.menu_mail, ul.menu>li{
+    height: 30px;
+}
+div.menu_mail a{
+    padding: 0 25px 0 0;
+    background: url('../img/maket/icon_mail.jpg') no-repeat 100% 50%;
+}
+div.menu_mail{
+    padding: 5px 0;
+}
+div#header ul.menu li ul li{
+    float: left;
+    display: block;
+    background: none;
+    white-space: nowrap;
+}
+div#header ul.menu li ul{
+    background: #ececec;
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 30px;
+    z-index: 99;
+}
+ul.menu a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+ul.menu li>a{
+    padding: 5px 10px;
+}
+ul.menu li ul li>a{
+    padding: 10px 20px;
+}
+/* end menu */
+
+/* hover menu */
+div#header ul.menu li:hover>a{
+    color: #000000;
+}
+div#header ul.menu li:hover{
+    background: #dbdbdb;
+}
+div#header ul.menu li:hover ul{
+    display: block;
+}
+/* end hover menu */
+
+
+/* slider */
+div#slider{
+	width:1000px;
+	height:300px;
+	margin:10px auto 0;
+}
+div.line{
+    background: url('../img/maket/slider_line.png') no-repeat 50% 0;
+    height: 2px;
+}
+/* end slider */
+
+/* logotip */
+a#logo{
+    display: block;
+    background: url('../img/maket/logo.png') no-repeat;
+    height: 102px;
+    width: 342px;
+    overflow: hidden;
+    text-indent: -999px;
+}
+/* end logotip*/
+
+
+
+/*********************************
+END Header
+**********************************/
+/*************************************************************************************************/
+/*********************************
+Main
+**********************************/
+
+div#main h1{
+    font-size: 24px;
+}
+div#main p{
+    color: black;
+}
+
+.contant{
+    margin: 10px 0 0 0;
+}
+
+/* main */
+div#main{
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+/* end main */
+
+/* main line */
+div#main div.line{
+    margin-top: 40px;
+}
+/* end mai line */
+
+
+/* left sidebar menu */
+ul.left_side_menu li{
+    list-style: none;
+    background: url('../img/maket/sidebar_line.png') no-repeat 50% 0;
+    width: 219px;
+}
+ul.left_side_menu li:first-child{
+    background-image: none;
+}
+ul.left_side_menu{
+    margin: 0 0 0 20px;
+}
+ul.left_side_menu li:hover{
+    background: url('../img/maket/left_sidebar_hover.png') repeat-y 50% 0;
+}
+ul.left_side_menu li:hover a{
+    color: black;
+}
+ul.left_side_menu a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 10px 0 10px 20px;
+}
+/* end left side var */
+
+
+/* Новости */
+div.right_bar h3{
+    padding: 0 0 0 25px;
+    font-size: 22px;
+    margin: 0;
+}
+div.news{
+    padding: 15px 20px 10px 25px;
+    background: url('../img/maket/right_side_line.png') no-repeat 50% 0;
+    width: 197px;
+}
+div.news_block .news:first-child{
+    background: none;
+}
+/* конец новости*/
+
+
+
+
+
+
+/*********************************
+END Main
+**********************************/
+/*************************************************************************************************/
+/*********************************
+Footer
+**********************************/
+
+
+div#footer{
+    margin: 0 0 20px 0;
+}
+
+
+/*********************************
+EDN Footer
+**********************************/
+/*************************************************************************************************/

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Написать нам
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="span10 offset1">
+            <h1>Напишите нам письмо</h1>
+            <form action="" method="POST">{% csrf_token %}
+                <table>
+                    {{ form.as_table }}
+                </table>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}
