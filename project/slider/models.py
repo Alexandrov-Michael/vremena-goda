@@ -8,8 +8,8 @@ class SliderImgs(models.Model):
     """
     model for imgages slider
     """
-    main_page  = models.ForeignKey(Pages, verbose_name=u'Отображение на основной странице', related_name='rel_main_page_slider', null=True)
-    child_page = models.ForeignKey(ChildPages, verbose_name=u'Отображение на доп. страницах', related_name='rel_child_page_slider', null=True)
+    main_page  = models.ForeignKey(Pages, verbose_name=u'Отображение на основной странице', related_name='rel_main_page_slider', null=True, blank=True)
+    child_page = models.ForeignKey(ChildPages, verbose_name=u'Отображение на доп. страницах', related_name='rel_child_page_slider', null=True, blank=True)
     for_all    = models.BooleanField(u'Отобразить на всех страницах')
     active     = models.BooleanField(u'Активность')
     img        = models.ImageField(u'Картинка', upload_to='images')
