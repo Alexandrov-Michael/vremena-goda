@@ -113,10 +113,10 @@ TEMPLATE_DIRS = (
 )
 
 INSTALLED_APPS = (
-#    'admin_tools',
-#    'admin_tools.theming',
-#    'admin_tools.menu',
-#    'admin_tools.dashboard',
+    'admin_tools',
+    'admin_tools.theming',
+    'admin_tools.menu',
+    'admin_tools.dashboard',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -170,6 +170,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.static',
     'django.contrib.auth.context_processors.auth',
     'django.contrib.messages.context_processors.messages',
+    'django.core.context_processors.request',
     'proj.context_processors.contact_data',
     'proj.context_processors.menu',
     'proj.context_processors.slider',
@@ -237,6 +238,9 @@ TINYMCE_DEFAULT_CONFIG={
     'pagebreak_separator' : "",
     }
 
+
+
+ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 if not HOST_NAME == PROD_HOST:
     from proj.setting_dev import *
