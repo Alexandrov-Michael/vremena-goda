@@ -3,7 +3,7 @@
         <ul class='menu'>
             {% for item in menu_items %}
                 <li>
-                    <a href="{{ item.url }}">{{ item.menu_title }}</a>
+                    <a href="/{{ item.url }}">{{ item.menu_title }}</a>
                     {% if item.rel_childs.all %}
                         <ul class='hide'>
                             {% for child in item.rel_childs.all %}

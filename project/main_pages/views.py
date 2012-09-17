@@ -29,7 +29,7 @@ class PagesView(TemplateView):
         get page by url kwarg
         """
         url = self.kwargs.get('url', None)
-        url = '/' if not url else url
+        url = 'main' if not url else url
         try:
             page = Pages.objects.get(url=url)
             self.template_name = page.template
