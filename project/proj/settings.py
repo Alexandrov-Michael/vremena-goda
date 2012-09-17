@@ -201,7 +201,6 @@ TINYMCE_PLUGINS = [
 
 TINYMCE_DEFAULT_CONFIG={
     'theme' : "advanced",
-    'plugins' : ",".join(TINYMCE_PLUGINS), # django-cms
     'language' : 'ru',
     "theme_advanced_buttons1" : "bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,formatselect,fontsizeselect,|,spellchecker",
     "theme_advanced_buttons2" : "cut,copy,paste,|,search,replace,|,bullist,numlist,|,outdent,indent,blockquote,|,undo,redo,|,link,unlink,cleanup,code,|,forecolor,backcolor,|,",
