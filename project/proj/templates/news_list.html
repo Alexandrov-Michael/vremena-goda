@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Список новостей
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="span10 offset1">
+            <h1>Список всех новостей</h1>
+            {% for item in news_list %}
+                {% if item.active %}
+                    <div class='row'>
+                        <div class='span12'>
+                            <h2><a href="/news/{{ item.id }}/">{{ item.title }}</a></h2>
+                            <p>{{ item.date }}</p>
+                            <div>{{ item.body|truncatewords:10 }}</div>
+                        </div>
+                    </div>
+                    <br>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

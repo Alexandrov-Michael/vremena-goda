@@ -39,7 +39,7 @@ class ChildPages(models.Model):
     url         = models.CharField(u'Адрес', max_length=30)
     title       = models.CharField(u'Заголовок', max_length=100)
     menu_title  = models.CharField(u'Название в меню', max_length=50)
-    menu_active = models.BooleanField(u'Активность в меню')
+    menu_active = models.BooleanField(u'Активность в меню', default=True)
     main_page_menu_active = models.BooleanField(u'Отображение в меню на главной странице')
     body        = tinymce_model.HTMLField(u'Содержание', blank=True)
 
@@ -60,7 +60,7 @@ class News(models.Model):
     """
     title  = models.CharField(u'Заголовок', max_length=100)
     date   = models.DateTimeField(u'Дата')
-    active = models.BooleanField(u'Активность')
+    active = models.BooleanField(u'Активность', default=True)
     body   = tinymce_model.HTMLField(u'Содержание')
 
     def __unicode__(self):

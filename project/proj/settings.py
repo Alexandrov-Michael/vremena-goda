@@ -132,6 +132,7 @@ INSTALLED_APPS = (
     'slider',
     'tinymce',
     'south',
+    'form_results',
 )
 
 # A sample logging configuration. The only tangible logging

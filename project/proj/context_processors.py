@@ -64,7 +64,7 @@ def menu(request):
     context processor for main menu
     """
 
-    menu_items = Pages.objects.filter(menu_active=True)
+    menu_items = Pages.objects.select_related('rel_childs').filter(menu_active=True)
 
     return {
         'menu_items' : menu_items,

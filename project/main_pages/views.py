@@ -5,7 +5,9 @@ from django.shortcuts import render
 from django.views.generic.base import TemplateView
 from django.views.generic.detail import DetailView
 from django.views.generic.edit import FormView
+from django.views.generic.list import ListView
 from models import Pages, ChildPages, News
+from form_results.models import FormLog
 from django.http import Http404
 from forms import ContactForm
 
@@ -54,7 +56,7 @@ class NewsView(DetailView):
     news views detail
     """
     model = News
-    template_name = 'child.html'
+    template_name = 'one_new.html'
     context_object_name = 'page'
 
 
@@ -76,6 +78,12 @@ class ContactView(FormView):
         return url
 
     def form_valid(self, form):
+        email = form.cleaned_data['email']
+        text  = form.cleaned_data['text']
+        new_obj = FormLog()
+        new_obj.email = email
+        new_obj.text = text
+        new_obj.save()
         return super(ContactView, self).form_valid(form)
 
 contactview = ContactView.as_view()
@@ -89,4 +97,17 @@ def success_view(request):
     success view
     """
     return render(request, 'success.html', locals())
+
+
+class NewsListView(ListView):
+    """
+    news list view
+    """
+    model = News
+    template_name = 'news_list.html'
+    paginate_by = 20
+    context_object_name = 'news_list'
+
+news_list_view = NewsListView.as_view()
+
 

@@ -8,4 +8,4 @@ class ContactForm(forms.Form):
     contact form
     """
     email = forms.EmailField(label=u'E-mail')
-    text  = forms.CharField(label=u'Содержание', widget=forms.Textarea(attrs={'cols': 40, 'rows': 20}))
+    text  = forms.CharField(label=u'Содержание', widget=forms.Textarea(attrs={'class':'form_text'}))
