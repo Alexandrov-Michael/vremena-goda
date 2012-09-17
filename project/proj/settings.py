@@ -129,7 +129,7 @@ INSTALLED_APPS = (
     'django_extensions',
     'main_pages',
     'slider',
-
+    'tinymce',
     'south',
 )
 

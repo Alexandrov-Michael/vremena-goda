@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 
 from django.db import models
+from tinymce import models as tinymce_model
 
 
 TEMPLATES_CHOICE = (
@@ -19,7 +20,7 @@ class Pages(models.Model):
     url         = models.CharField(u'Адрес', max_length=30)
     template    = models.CharField(u'Шаблон', max_length=30, choices=TEMPLATES_CHOICE)
     menu_active = models.BooleanField(u'Активность в меню')
-    body        = models.TextField(u'Содержание', blank=True)
+    body        = tinymce_model.HTMLField(u'Содержание', blank=True)
 
     def __unicode__(self):
         return self.title
@@ -39,7 +40,7 @@ class ChildPages(models.Model):
     menu_title  = models.CharField(u'Название в меню', max_length=50)
     menu_active = models.BooleanField(u'Активность в меню')
     main_page_menu_active = models.BooleanField(u'Отображение в меню на главной странице')
-    body        = models.TextField(u'Содержание', blank=True)
+    body        = tinymce_model.HTMLField(u'Содержание', blank=True)
 
 
     class Meta:
@@ -59,7 +60,7 @@ class News(models.Model):
     title  = models.CharField(u'Заголовок', max_length=100)
     date   = models.DateTimeField(u'Дата')
     active = models.BooleanField(u'Активность')
-    body   = models.TextField(u'Содержание')
+    body   = tinymce_model.HTMLField(u'Содержание')
 
     def __unicode__(self):
         return self.title
