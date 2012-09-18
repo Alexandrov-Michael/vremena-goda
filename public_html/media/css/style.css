@@ -86,6 +86,10 @@ div#header{
     font-size: 16px;
 }
 
+
+div#header a:focus{
+    outline: none;
+}
 /* menu */
 
 ul.menu>li{
@@ -276,3 +280,25 @@ div#footer{
 EDN Footer
 **********************************/
 /*************************************************************************************************/
+
+
+
+/****** Forms */
+
+/* textaria */
+.form_text{
+    width: 400px;
+    height: 200px;
+}
+/* end text aria */
+
+/** form div */
+.form_div{
+    margin: 10px 0 0 0;
+    padding: 20px 0 0 0;
+    border:1px solid #afafaf;
+    background: #ebebeb;
+}
+/* end form div */
+
+/******** END FORM */
