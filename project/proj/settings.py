@@ -4,7 +4,7 @@ from os import path
 from platform import node
 
 HOST_NAME = node()
-PROD_HOST = 'vh13'
+PROD_HOST = 'vh15'
 
 
 PROJECT_ROOT = path.abspath(path.dirname(__file__))
