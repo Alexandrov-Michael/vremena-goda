@@ -17,6 +17,6 @@ class FormLog(models.Model):
 
 
     class Meta:
-        verbose_name = u'Отправленное сообщения с контактной формы'
-        verbose_name_plural = u'Отправленные сообещния с контактной формы'
+        verbose_name = u'Отправленное сообщения'
+        verbose_name_plural = u'Отправленные сообещния'
 
