@@ -121,6 +121,7 @@ div#header ul.menu li ul li{
     display: block;
     background: none;
     white-space: nowrap;
+    width:100%;
 }
 div#header ul.menu li ul{
     background: #ececec;
