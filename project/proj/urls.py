@@ -5,6 +5,7 @@ from proj import settings
 admin.autodiscover()
 
 urlpatterns = patterns('',
+    url(r'^admin/filebrowser/', include('filebrowser.urls')),
     url(r'^admin_tools/',       include('admin_tools.urls')),
     url(r'^admin/doc/',         include('django.contrib.admindocs.urls')),
     url(r'^admin/',             include(admin.site.urls)),

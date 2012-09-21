@@ -22,6 +22,7 @@ class Pages(models.Model):
     template    = models.CharField(u'Шаблон', max_length=30, choices=TEMPLATES_CHOICE)
     menu_active = models.BooleanField(u'Активность в меню')
     body        = tinymce_model.HTMLField(u'Содержание', blank=True)
+    menu_number = models.SmallIntegerField(u'Номер в меню', blank=True, null=True)
 
     def __unicode__(self):
         return self.title
@@ -29,6 +30,7 @@ class Pages(models.Model):
     class Meta:
         verbose_name = u'Основная страница'
         verbose_name_plural = u'Основные страницы'
+	ordering = ['menu_number']
 
 
 class ChildPages(models.Model):

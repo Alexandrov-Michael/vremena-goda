@@ -1,0 +1,826 @@
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50] mod_wsgi (pid=31354): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'.
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50] Traceback (most recent call last):
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 219, in __call__
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]     self.load_middleware()
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 39, in load_middleware
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/functional.py", line 184, in inner
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]     self._setup()
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/conf/__init__.py", line 42, in _setup
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]     self._wrapped = Settings(settings_module)
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/conf/__init__.py", line 93, in __init__
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]     mod = importlib.import_module(self.SETTINGS_MODULE)
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/settings.py", line 255, in <module>
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]     DIRECTORY = getattr(settings, "FILEBROWSER_DIRECTORY", 'uploads/')
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50] NameError: name 'settings' is not defined
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50] mod_wsgi (pid=31364): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'.
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50] Traceback (most recent call last):
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 219, in __call__
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]     self.load_middleware()
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 39, in load_middleware
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/functional.py", line 184, in inner
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]     self._setup()
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/conf/__init__.py", line 42, in _setup
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]     self._wrapped = Settings(settings_module)
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/conf/__init__.py", line 93, in __init__
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]     mod = importlib.import_module(self.SETTINGS_MODULE)
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/settings.py", line 255, in <module>
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50]     DIRECTORY = getattr(settings, "FILEBROWSER_DIRECTORY", 'uploads/')
+vremenagoda-spb.com [Fri Sep 21 09:08:52 2012] [error] [client 93.153.135.50] NameError: name 'settings' is not defined
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50] mod_wsgi (pid=21883): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 20, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:08 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50] mod_wsgi (pid=21936): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 20, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50] mod_wsgi (pid=21948): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 20, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:09 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50] mod_wsgi (pid=21985): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 20, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:10 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50] mod_wsgi (pid=21997): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 20, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:11 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/slider/sliderimgs/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50] mod_wsgi (pid=22056): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 20, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:12 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50] mod_wsgi (pid=22092): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 20, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:13 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50] mod_wsgi (pid=22110): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 20, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50] mod_wsgi (pid=22193): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 20, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:14 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50] mod_wsgi (pid=22217): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 20, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:23:15 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24129): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24141): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'.
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50] Traceback (most recent call last):
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     response = self.get_response(request)
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name)
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     admin.autodiscover()
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app)
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>'
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50]                                                                                    ^
+vremenagoda-spb.com [Fri Sep 21 10:24:01 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24157): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24203): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'.
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50] Traceback (most recent call last):
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     response = self.get_response(request)
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name)
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     admin.autodiscover()
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app)
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>'
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]                                                                                    ^
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24228): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:02 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24263): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'.
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50] Traceback (most recent call last):
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     response = self.get_response(request)
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name)
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     admin.autodiscover()
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app)
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>'
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]                                                                                    ^
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24273): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:03 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24278): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'.
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50] Traceback (most recent call last):
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     response = self.get_response(request)
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name)
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     admin.autodiscover()
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app)
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>'
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]                                                                                    ^
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24290): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24298): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'.
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50] Traceback (most recent call last):
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     response = self.get_response(request)
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name)
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     admin.autodiscover()
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app)
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>'
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50]                                                                                    ^
+vremenagoda-spb.com [Fri Sep 21 10:24:04 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24305): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24327): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'.
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50] Traceback (most recent call last):
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     response = self.get_response(request)
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name)
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     admin.autodiscover()
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app)
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>'
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]                                                                                    ^
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24340): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:05 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24394): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'.
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50] Traceback (most recent call last):
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     response = self.get_response(request)
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name)
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     admin.autodiscover()
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app)
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>'
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]                                                                                    ^
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24407): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24427): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'.
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50] Traceback (most recent call last):
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     response = self.get_response(request)
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name)
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     admin.autodiscover()
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app)
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>'
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50]                                                                                    ^
+vremenagoda-spb.com [Fri Sep 21 10:24:06 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24447): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24473): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'.
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50] Traceback (most recent call last):
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     response = self.get_response(request)
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name)
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     admin.autodiscover()
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app)
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>'
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]                                                                                    ^
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24482): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:07 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24504): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'.
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50] Traceback (most recent call last):
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     response = self.get_response(request)
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name)
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     admin.autodiscover()
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app)
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>'
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]                                                                                    ^
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24511): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24522): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'.
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50] Traceback (most recent call last):
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     response = self.get_response(request)
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name)
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     admin.autodiscover()
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app)
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>'
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50]                                                                                    ^
+vremenagoda-spb.com [Fri Sep 21 10:24:08 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24548): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24562): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'.
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50] Traceback (most recent call last):
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     response = self.get_response(request)
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name)
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     admin.autodiscover()
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app)
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>'
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]                                                                                    ^
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24573): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'., referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50] Traceback (most recent call last):, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     response = self.get_response(request), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info()), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     admin.autodiscover(), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     __import__(name), referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>', referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50]                                                                                    ^, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:09 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax, referer: http://vremenagoda-spb.com/admin/main_pages/pages/
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50] mod_wsgi (pid=24595): Exception occurred processing WSGI script '/home/v/vremen2com/vremena/public_html/django.wsgi'.
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50] Traceback (most recent call last):
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]     response = self.get_response(request)
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 224, in handle_uncaught_exception
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]     if resolver.urlconf_module is None:
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/core/urlresolvers.py", line 323, in urlconf_module
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]     self._urlconf_module = import_module(self.urlconf_name)
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/proj/urls.py", line 5, in <module>
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]     admin.autodiscover()
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]     import_module('%s.admin' % app)
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/env/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]     __import__(name)
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]   File "/home/v/vremen2com/vremena/project/slider/admin.py", line 21
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]     return '<a href="'+ str(self.id) +'/"><img src="'+ str(image_path) +'" width='30' height='10' /></a>'
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50]                                                                                    ^
+vremenagoda-spb.com [Fri Sep 21 10:24:10 2012] [error] [client 93.153.135.50] SyntaxError: invalid syntax
