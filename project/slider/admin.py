@@ -10,11 +10,12 @@ import os
 
 class SliderAdmin(admin.ModelAdmin):
 	list_display = (
-		'active',
 		'get_img',
 		'alt',
+		'active',
 	)
-	list_display_links = list_display
+	list_display_links = ('get_img','alt',)
+	list_editable = ('active',)
 
 	def get_img(self, obj):
 		image_path = os.path.join(settings.MEDIA_URL, obj.img.url)

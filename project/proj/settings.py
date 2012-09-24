@@ -209,6 +209,6 @@ else:
 
 URL_FILEBROWSER_MEDIA = STATIC_URL + "filebrowser/"
 PATH_FILEBROWSER_MEDIA = os.path.join(STATIC_ROOT, 'filebrowser/')
-FILEBROWSER_URL_TINYMCE = '/media/tinymce/jscripts/tiny_mce/'
+FILEBROWSER_URL_TINYMCE = '/static/tiny_mce/'
 
 #DEBUG=True

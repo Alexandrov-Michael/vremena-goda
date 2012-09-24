@@ -77,6 +77,9 @@ ul.menu,div#header ul.menu li ul,ul.left_side_menu{
 .indent{
 	text-indent:20px;
 }
+.justify{
+	text-align:justify;
+}
 /************ END Common ******************/
 
 
