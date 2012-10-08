@@ -288,6 +288,12 @@ div.news_block .news:first-child{
 }
 /* конец новости*/
 
+div.gallery-set{
+    margin: 10px;
+    padding: 10px;
+    border:1px solid #afafaf;
+    background: #ebebeb;
+}
 
 
 
