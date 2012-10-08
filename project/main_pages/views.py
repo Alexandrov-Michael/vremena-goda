@@ -10,6 +10,10 @@ from models import Pages, ChildPages, News
 from form_results.models import FormLog
 from django.http import Http404
 from forms import ContactForm
+import datetime
+#from pytz import timezone
+from django.utils import timezone
+from proj import settings
 
 
 class PagesView(TemplateView):
@@ -81,6 +85,8 @@ class ContactView(FormView):
         email = form.cleaned_data['email']
         text  = form.cleaned_data['text']
         new_obj = FormLog()
+	timezone.activate(settings.TIME_ZONE)
+	new_obj.date = timezone.now()
         new_obj.email = email
         new_obj.text = text
         new_obj.save()

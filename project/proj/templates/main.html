@@ -7,16 +7,16 @@
 {% block content %}
     <div class="row">
         {% include 'main_page_menu.html' %}
-        <div class="span6 green">
+        <div class="span7 green">
             {% include 'main_imgs.html' %}
             <div class="row">
-                <div class="span6 contant">
+                <div class="span7 contant">
                     <h1>{{ page.title }}</h1>
                     {{ page.body|safe }}
                 </div>
             </div>
         </div>
-        <div class="span3 blue right_bar">
+        <div class="span2 blue right_bar">
             {% include 'news.html' %}
         </div>
     </div>

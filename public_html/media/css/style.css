@@ -6,6 +6,23 @@ Main style for vremena goda
 
 
 
+/* jQuery lightBox plugin - Gallery style */
+	
+	#gallery ul { list-style: none; }
+	#gallery ul li { display: inline;  }
+	#gallery ul img {
+		border: 5px solid #afafaf;
+		border-width: 5px;
+                vertical-align:text-top;
+	}
+	#gallery ul a:hover img {
+		border: 5px solid #fff;
+		border-width: 5px;
+		color: #fff;
+	}
+	#gallery ul a:hover { color: #fff; }
+
+
 
 /************ Common     *******************/
 /* test style */
@@ -41,6 +58,12 @@ Main style for vremena goda
     height: 300px;
     margin: 10px auto 20px;
 
+}
+
+.logo-set li{
+  list-style:none;
+  display:inline-block;
+  margin: 20px 20px 0 0;
 }
 
 
@@ -180,8 +203,8 @@ div.line{
 a#logo{
     display: block;
     background: url('../img/maket/logo.png') no-repeat;
-    height: 102px;
-    width: 342px;
+    height: 140px;
+    width: 310px;
     overflow: hidden;
     text-indent: -999px;
 }
@@ -258,7 +281,7 @@ div.right_bar h3{
 div.news{
     padding: 15px 20px 10px 25px;
     background: url('../img/maket/right_side_line.png') no-repeat 50% 0;
-    width: 197px;
+/*    width: 197px; */
 }
 div.news_block .news:first-child{
     background: none;

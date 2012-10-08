@@ -4,8 +4,17 @@ __author__ = 'michael'
 
 import models
 from django.contrib import admin
+from gallery.models import Gallery
 
-admin.site.register(models.ChildPages)
+
+class GalleryInline(admin.TabularInline):
+	model = Gallery
+
+
+class AdminChildPages(admin.ModelAdmin):
+	inlines = [ GalleryInline, ]
+
+admin.site.register(models.ChildPages, AdminChildPages)
 admin.site.register(models.ContactData)
 admin.site.register(models.Main_imgs)
 admin.site.register(models.News)

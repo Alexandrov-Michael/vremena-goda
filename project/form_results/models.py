@@ -13,7 +13,7 @@ class FormLog(models.Model):
     text  = models.TextField(u'Содержание')
 
     def __unicode__(self):
-        return u'%s %s' % (self.date, self.email)
+        return u'%s' % (self.id)
 
 
     class Meta:
