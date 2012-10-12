@@ -11,5 +11,20 @@
             <p>{{ page.date }}</p>
             {{ page.body|safe }}
         </div>
+{% if page.rel_news_parent.all %}
+		<div class="span10 offset1">
+			<div id='gallery' class='gallery-set'>
+				<ul>
+			{% for item in page.rel_news_parent.all %}
+					<li>
+					<a href='{{ item.img.url }}'>
+						<img src='{{ item.img.url }}' width='100'>
+					</a>
+					</li>
+			{% endfor %}
+				</ul>
+			</div>
+		</div>
+	{% endif %}
     </div>
 {% endblock %}

@@ -103,6 +103,10 @@ ul.menu,div#header ul.menu li ul,ul.left_side_menu{
 .justify{
 	text-align:justify;
 }
+
+.partners{
+  margin: 15px 0 0 30px; float: left;
+}
 /************ END Common ******************/
 
 

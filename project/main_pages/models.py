@@ -18,7 +18,7 @@ class Pages(models.Model):
 
     title       = models.CharField(u'Заголовок', max_length=100)
     menu_title  = models.CharField(u'Название в меню', max_length=50)
-    url         = models.CharField(u'Адрес', max_length=30)
+    url         = models.CharField(u'Адрес', max_length=30, unique=True)
     template    = models.CharField(u'Шаблон', max_length=30, choices=TEMPLATES_CHOICE)
     menu_active = models.BooleanField(u'Активность в меню')
     body        = tinymce_model.HTMLField(u'Содержание', blank=True)
@@ -38,7 +38,7 @@ class ChildPages(models.Model):
     model for child pages
     """
     parent      = models.ForeignKey(Pages, verbose_name=u'Родитель', related_name='rel_childs')
-    url         = models.CharField(u'Адрес', max_length=30)
+    url         = models.CharField(u'Адрес', max_length=30, unique=True)
     title       = models.CharField(u'Заголовок', max_length=100)
     menu_title  = models.CharField(u'Название в меню', max_length=50)
     menu_active = models.BooleanField(u'Активность в меню', default=True)
