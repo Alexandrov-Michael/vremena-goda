@@ -16,6 +16,8 @@ class NewsInline(admin.TabularInline):
 
 class AdminChildPages(admin.ModelAdmin):
 	inlines = [ GalleryInline, ]
+        list_display = ('parent', 'title')
+        list_display_links = list_display
 
 
 class AdminNews(admin.ModelAdmin):

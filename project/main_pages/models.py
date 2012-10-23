@@ -49,6 +49,7 @@ class ChildPages(models.Model):
     class Meta:
         verbose_name = u'Дополнительная страница'
         verbose_name_plural = u'Дополнительные страницы'
+        ordering = ['title']
 
 
     def __unicode__(self):
@@ -64,6 +65,7 @@ class News(models.Model):
     date   = models.DateTimeField(u'Дата')
     active = models.BooleanField(u'Активность', default=True)
     body   = tinymce_model.HTMLField(u'Содержание')
+    img    = models.ImageField('Логотип новости',upload_to='images', blank=True, null=True)
 
     def __unicode__(self):
         return self.title
