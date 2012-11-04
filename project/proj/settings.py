@@ -135,6 +135,7 @@ INSTALLED_APPS = (
     'south',
     'form_results',
     'gallery',
+    'main_gall',
 )
 
 # A sample logging configuration. The only tangible logging
