@@ -72,7 +72,7 @@
 
 		<div id="page">
 			<div id="container">
-				<h2>Thumbnail rollover effects and slideshow crossfades</h2>
+				<h2>Наши работы</h2>
 
 				<!-- Start Advanced Gallery Html Containers -->
 				<div id="gallery" class="content">
@@ -91,11 +91,11 @@
 								<img src="{{ item.thumb.url }}" alt="{{ item.alt }}" />
 							</a>
 							<div class="caption">
-								<div class="download">
+								<!--<div class="download">
 									<a href="http://farm4.static.flickr.com/3261/2538183196_8baf9a8015_b.jpg">Download Original</a>
-								</div>
-								<div class="image-title">Title #0</div>
-								<div class="image-desc">Description</div>
+								</div>-->
+								<div class="image-title">{{ item.title }}</div>
+								<div class="image-desc">{{ item.alt }}</div>
 							</div>
 						</li>
             {% endfor %}
