@@ -107,6 +107,10 @@ ul.menu,div#header ul.menu li ul,ul.left_side_menu{
 .partners{
   margin: 15px 0 0 30px; float: left;
 }
+
+.margin-bot{
+    margin: 0 0 15px 0;
+    }
 /************ END Common ******************/
 
 
