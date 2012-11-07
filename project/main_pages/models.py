@@ -44,12 +44,13 @@ class ChildPages(models.Model):
     menu_active = models.BooleanField(u'Активность в меню', default=True)
     main_page_menu_active = models.BooleanField(u'Отображение в меню на главной странице')
     body        = tinymce_model.HTMLField(u'Содержание', blank=True)
+    order = models.PositiveIntegerField(u'Порядок')
 
 
     class Meta:
         verbose_name = u'Дополнительная страница'
         verbose_name_plural = u'Дополнительные страницы'
-        ordering = ['title']
+        ordering = ['order']
 
 
     def __unicode__(self):
